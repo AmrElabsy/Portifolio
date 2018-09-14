@@ -1,0 +1,416 @@
+/* Starting General*/
+h2
+{
+	margin-bottom: 5rem;
+}
+/* Ending   General*/
+
+/* Starting Nav-bar */
+nav
+{
+	margin: 0px;
+	position: fixed;
+}
+.nav-firstletter
+{
+	font-weight: bold;
+	color: #292;
+}
+
+.navbar-brand
+{
+	font-size: 28px;
+}
+
+.nav a
+{
+	font-size: 18px;
+}
+
+
+
+/* Ending Nav-bar */
+
+
+/* Starting Head */
+.jumbotron
+{
+	margin-top: 5rem;
+	margin-bottom: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+   	border-bottom: 3px solid #AAA;
+    padding: 17rem 9rem !important;
+}
+
+#homeHead
+{
+    background-image: url('../Images/Head.jpg');
+
+}
+
+#aboutHead
+{
+    background-image: url('../Images/Aboutus.jpg');
+    color: #FFF;
+
+}
+
+#newsHead
+{
+    background-image: url('../Images/newsheader.jpg');
+    color: #FFF;
+}
+
+#contactHead
+{
+    background-image: url('../Images/contactheader.jpg');
+    color: #FFF;
+}
+
+
+
+section div p
+{
+	font-size: 25px !important;
+}
+
+.jumbotron .container
+{
+	padding: 6rem 12rem;
+	border-radius: 3rem;
+}
+
+#homeHeadContainer
+{
+	background-color: rgba(255,255,255,0.7);	
+}
+
+#aboutHeadContainer
+{
+	background-color: rgba(0,0,0,0.3);	
+}
+
+#newsHeadContainer
+{
+	background-color: rgba(0,0,0,0.3);	
+
+}
+
+#contactHeadContainer
+{
+	background-color: rgba(0,0,0,0.3);	
+
+}
+/* Ending   Head */
+
+
+/* Starting About */
+.about
+{
+	background: #DDD;
+	padding: 6rem 11%;
+	border-bottom: 3px solid #AAA;
+}
+
+h2
+{
+	width: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 38px;
+}
+
+.about .media
+{
+	border: 3px solid #888;
+	border-radius: 15px;
+	padding: 2rem;
+	background: #D8D8D8
+
+}
+
+.abt-btn /* Stands for About-Button*/
+{
+	margin: 2rem;
+}
+/* Ending   About */
+
+
+/* Starting News */
+.news
+{
+	background: #FFF;
+	padding: 6rem 11%;
+	border-bottom: 3px solid #AAA;
+
+}
+
+.news .container
+{
+	margin: 0px !important;
+	width: auto;
+}
+.news .row
+{
+	position: relative;
+}
+
+.vl /* Stands fot Vertical Line*/
+{
+    border-left: 12px solid #3A3;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -6px;
+    top: 0;
+    z-index: 5;
+    border-radius: 6px;
+}
+
+.news .pnl-container
+{
+	padding-top: 0rem;
+}
+/* Ending   News */
+
+
+/* Starting Contact */
+.contact
+{
+	background: #DDD;
+	padding: 6rem 11%;
+	border-bottom: 3px solid #AAA;
+	height: 50rem;
+
+}
+
+.contact textarea
+{
+	height: 15rem;
+	resize: unset;
+}
+/* Ending   Contact */
+
+
+/* Starting Footer */
+.footer
+{
+	background: #171717;
+	padding: 6rem 11%;
+	border-bottom: 3px solid #AAA;
+	color: #FFF;
+	font-size: 1.5em;
+}
+
+.footer a
+{
+	color: #EEE;
+}
+
+.footer a:hover
+{
+	text-decoration: none;
+}
+/* Ending   Footer */
+
+/* Starting Loading Animation*/
+
+
+
+/* Ending   Loading Animation*/
+
+
+/* Starting About Page*/
+
+/* Starting staff*/
+.staff
+{
+	padding: 6rem 11%;
+	background: #DDD;
+	border-bottom: 3px solid #AAA;
+
+}
+
+.staff img
+{
+	border-radius: 50%;
+	margin-bottom: 1rem;
+	width: 70%;
+}
+
+.card
+{
+	border-radius: 25px;
+	background: #EEE;
+	padding: 3rem;
+	transition: all 0.5s ease-in-out;
+}
+
+.shadowhover:hover
+{
+	box-shadow: 5px 10px 50px #080,
+				-5px -10px 50px #080;
+}
+
+.insetshadowhover:hover
+{
+	box-shadow: 0px -5px 50px #080 inset,
+				0px 5px 50px #080 inset;
+}
+
+.scaleinhover:hover
+{
+	transform: scale(1.05);
+}
+
+.rotateY, .rotateX
+{
+	transition: all 1.5s ease-in-out;
+}
+.rotateY:hover
+{
+	transform: rotateY(360deg);
+}
+
+.rotateX:hover
+{
+	transform: rotateX(360deg);
+}
+
+.scaleouthover:hover
+{
+	transform: scale(0.9);
+}
+
+/* Ending   staff*/
+
+/* Starting Slide*/
+.slidea
+{
+	padding: 6rem 11%;
+	border-bottom: 3px solid #AAA;	
+}
+
+/* Ending   Slide*/
+
+/* Starting Services*/
+.services
+{
+	padding: 6rem 11%;
+	background: #EEE;
+	border-bottom: 3px solid #AAA;
+
+}
+
+.services .row
+{
+	border: 3px solid #999;
+	border-radius: 15px;
+	padding: 10px;
+	box-shadow: 10px 15px 15px #070;
+}
+
+.services h3
+{
+	background-color: #BBB;
+	border: 1px solid #222;
+	border-radius: 6PX;
+	padding: 2rem 1rem;
+
+}
+
+.services p
+{
+	border-radius: 7px;
+	border: 2px solid #888;
+}
+/* Ending   About Page*/
+
+/* Starting News Page*/
+
+.chapter
+{
+	padding: 6rem 11%;
+	border-bottom: 3px solid #AAA;
+}
+
+
+.cptr1, .cptr3
+{
+	background: #EEE;
+}
+
+.chapter img
+{
+	height: 100%;
+	width: 100%;
+}
+
+.onphoto
+{
+	position: relative;
+}
+
+.onphoto > .top
+{
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	background-color: rgba(255,255,255,0.7);
+	padding: 10px;
+	width: 80%;
+	border-radius: 15px;	
+
+}
+
+.onphoto > .bottom
+{
+	position: absolute;
+	bottom: 5%;
+	left: 5%;
+	background-color: rgba(255,255,255,0.6);
+	padding: 10px;
+	width: 80%;
+	border-radius: 15px;	
+
+
+}
+/* Ending   News Page*/
+
+/* Starting SignIn Page*/
+.signIn
+{
+	padding: 19rem 11%;
+	background: #EEE;
+	border-bottom: 3px solid #AAA;
+
+}
+/* Ending   SignIn Page*/
+
+/* Starting SignUp Page*/
+.signUp
+{
+	padding: 19rem 11%;
+	background: #EEE;
+	border-bottom: 3px solid #AAA;
+
+}
+
+.form-group
+{
+	padding-bottom: 4rem;
+}
+
+form .col-sm-6
+{
+	padding-bottom: 0px;
+}
+
+form label
+{
+	padding-top: 7px;
+	padding-right: 0px !important;
+}
+/* Ending   SignUp Page*/
