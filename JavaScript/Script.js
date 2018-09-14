@@ -1,4 +1,4 @@
-$(document).ready(function(){
+
 
     $("#ser1").mouseenter(function(){
         $("#servicesbox").css("boxShadow", "0px -50px 300px #292 inset");
@@ -31,5 +31,3 @@ $(document).ready(function(){
         $("#servicesbox").css("boxShadow",  "10px 15px 15px #070");
     });
 
-
-});
